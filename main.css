@@ -75,3 +75,11 @@ li p.search-word {
     border: 1px solid #ddd;
     border-radius: 3px;
 }
+
+.keyword-list p {
+    display: inline-block;
+}
+
+.keyword-list p+p {
+    margin-left: 5px;
+}

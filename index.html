@@ -13,10 +13,10 @@
 
 <body>
     <div class="search-area wrapper">
-        <form>
+        <form id="id-form">
             <h3>リアルタイムフィルター</h3>
             <p>入力した文字を含まない要素は非表示となります</p>
-            <input type="text">
+            <input id="form-text" type="text" value="">
         </form>
         <div class="search-result">
             <div class="searcc-result_hitnum"></div>
@@ -26,34 +26,55 @@
     <div class="target-area wrapper">
         <ul class="target-list">
             <li class="target-box">
-                <img src="/Users/sawa/work/REALTIME_FILTER/images/cherry-blossom.jpg" alt="target-box-image01">
-                <p>キーワード</p>
-                <p class="search-word">桜 さくら sakura</p>
+                <img src="images/cherry-blossom.jpg" alt="target-box-image01">
+                <p class="keywords">キーワード</p>
+                <div class="keyword-list">
+                    <p>桜</p>
+                    <p>さくら</p>
+                    <p>sakura</p>
+                </div>
             </li>
             <li class="target-box">
-                <img src="/Users/sawa/work/REALTIME_FILTER/images/sunrise.jpg" alt="target-box-image02">
-                <p>キーワード</p>
-                <p class="search-word">日の出 ひので hinode</p>
+                <img src="images/sunrise.jpg" alt="target-box-image02">
+                <p class="keywords">キーワード</p>
+                <div class="keyword-list">
+                    <p>日の出</p>
+                    <p>ひので</p>
+                    <p>hinode</p>
+                </div>
             </li>
             <li class="target-box">
-                <img src="/Users/sawa/work/REALTIME_FILTER/images/hiyoko.jpg" alt="target-box-image03">
-                <p>キーワード</p>
-                <p class="search-word">ひよこ hiyoko</p>
+                <img src="images/hiyoko.jpg" alt="target-box-image03">
+                <p class="keywords">キーワード</p>
+                <div class="keyword-list">
+                    <p>ひよこ</p>
+                    <p>hiyoko</p>
+                </div>
             </li>
             <li class="target-box">
-                <img src="/Users/sawa/work/REALTIME_FILTER/images/camp.jpg" alt="target-box-image04">
-                <p>キーワード</p>
-                <p class="search-word">きゃんぷ canpu</p>
+                <img src="images/camp.jpg" alt="target-box-image04">
+                <p class="keywords">キーワード</p>
+                <div class="keyword-list">
+                    <p>きゃんぷ</p>
+                    <p>canpu</p>
+                </div>
             </li>
             <li class="target-box">
-                <img src="/Users/sawa/work/REALTIME_FILTER/images/fune.jpg" alt="target-box-image05">
-                <p>キーワード</p>
-                <p class="search-word">船 ふね fune</p>
+                <img src="images/fune.jpg" alt="target-box-image05">
+                <p class="keywords">キーワード</p>
+                <div class="keyword-list">
+                    <p>船</p>
+                    <p>ふね</p>
+                    <p>fune</p>
+                </div>
             </li>
             <li class="target-box">
-                <img src="/Users/sawa/work/REALTIME_FILTER/images/cake.jpg" alt="target-box-image06">
-                <p>キーワード</p>
-                <p class="search-word">ケーキ ke-ki</p>
+                <img src="images/cake.jpg" alt="target-box-image06">
+                <p class="keywords">キーワード</p>
+                <div class="keyword-list">
+                    <p>ケーキ</p>
+                    <p>ke-ki</p>
+                </div>
             </li>
         </ul>
     </div>
